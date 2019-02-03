@@ -1,3 +1,6 @@
+# Swap files
+*.swp
+
 # Prerequisites
 *.d
 
