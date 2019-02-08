@@ -16,6 +16,7 @@ For use with [mackorone/mms](https://github.com/mackorone/mms), a Micromouse sim
 
 ## Notes
 
+- The example code is a simple left wall following algorithm
 - Build and run commands may be different based on your OS
 - Descriptions of all available API methods can be found at [mackorone/mms#mouse-api](https://github.com/mackorone/mms#mouse-api)
 - Communication with the simulator is done via stdin/stdout, use stderr to print output
