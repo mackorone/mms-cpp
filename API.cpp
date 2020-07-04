@@ -38,8 +38,8 @@ bool API::wallLeft() {
     return response == "true";
 }
 
-void API::moveForward() {
-    std::cout << "moveForward" << std::endl;
+void API::moveForward(int distance) {
+    std::cout << "moveForward " << distance << std::endl;
     std::string response;
     std::cin >> response;
     if (response != "ack") {
