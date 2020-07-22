@@ -42,7 +42,7 @@ void API::moveForward(int distance) {
     std::cout << "moveForward ";
     // Don't print distance argument unless explicitly specified, for
     // backwards compatibility with older versions of the simulator
-    if (distance != 0) {
+    if (distance != 1) {
         std::cout << distance;
     }
     std::cout << std::endl;
