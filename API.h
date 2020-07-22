@@ -13,7 +13,7 @@ public:
     static bool wallRight();
     static bool wallLeft();
 
-    static void moveForward(int distance = 1);
+    static void moveForward(int distance = 0);
     static void turnRight();
     static void turnLeft();
 

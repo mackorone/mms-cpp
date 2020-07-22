@@ -39,7 +39,13 @@ bool API::wallLeft() {
 }
 
 void API::moveForward(int distance) {
-    std::cout << "moveForward " << distance << std::endl;
+    std::cout << "moveForward ";
+    // Don't print distance argument unless explicitly specified, for
+    // backwards compatibility with older versions of the simulator
+    if (distance != 0) {
+        std::cout << distance;
+    }
+    std::cout << std::endl;
     std::string response;
     std::cin >> response;
     if (response != "ack") {
